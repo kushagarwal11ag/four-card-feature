@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	background-color: hsl(0, 0%, 98%);
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	gap: 2rem;
+	height: auto;
+	margin: 3rem 2rem;
+}
+
+h2 {
+	color: hsl(234, 12%, 34%);
+	font-weight: 200;
+	font-size: 2rem;
+}
+
+h1 {
+	color: hsl(234, 12%, 34%);
+	font-weight: 600;
+}
+
+p {
+	color: hsl(229, 6%, 66%);
+	font-weight: 200;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 2rem;
+	padding: 2rem 4rem;
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	gap: 2.5rem;
+}
+
+.supervisor {
+	text-align: start;
+	margin: auto 0;
+	padding: 2rem;
+	border-top: 5px solid hsl(180, 62%, 55%);
+	border-radius: 5px;
+	background-color: hsl(0, 100%, 100%);
+	box-shadow: 0 10px 5px hsla(229, 6%, 66%, 0.5);
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.grid h1 {
+	font-size: 1.5rem;
+}
+
+.grid p {
+	font-size: 0.9rem;
+}
+
+.grid img {
+	margin-left: auto;
+}
+
+.team-builder {
+	text-align: start;
+	margin: auto 0;
+	padding: 2rem;
+	border-top: 5px solid hsl(0, 78%, 62%);
+	border-radius: 5px;
+	background-color: hsl(0, 100%, 100%);
+	box-shadow: 0 10px 5px hsla(229, 6%, 66%, 0.5);
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.karma {
+	text-align: start;
+	margin: auto 0;
+	padding: 2rem;
+	border-top: 5px solid hsl(34, 97%, 64%);
+	border-radius: 5px;
+	background-color: hsl(0, 100%, 100%);
+	box-shadow: 0 10px 5px hsla(229, 6%, 66%, 0.5);
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.calculator {
+	text-align: start;
+	margin: auto 0;
+	padding: 2rem;
+	border-top: 5px solid hsl(212, 86%, 64%);
+	border-radius: 5px;
+	background-color: hsl(0, 100%, 100%);
+	box-shadow: 0 10px 5px hsla(229, 6%, 66%, 0.5);
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+	.grid img {
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.grid {
+		grid-template-columns: 1fr;
+		padding: 2rem 15rem;
+	}
+	.grid img {
+		margin: 0 0 0 auto;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	.grid {
+		padding: 2rem 10rem;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.grid {
+		padding: 2rem 5rem;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.grid {
+		padding: 2rem 0;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.grid img {
+		margin: 0 auto;
+	}
+	.supervisor,
+	.team-builder,
+	.karma,
+	.calculator {
+		padding: 1.5rem 1rem;
+	}
+}
