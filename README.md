@@ -26,7 +26,7 @@ Users should be able to:
 
 Desktop Screenshot
 
-![Desktop](screenshot/desktop.png)
+![](screenshot/desktop.png)
 
 Mobile Screenshot
 
