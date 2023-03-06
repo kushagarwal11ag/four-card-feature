@@ -61,7 +61,7 @@ Applied the design nearly to perfection and made the website as responsive as po
 
 ### Useful resources
 
-- [Box shadows](https://www.w3schools.com/cssref/css3_pr_box-shadow.php - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Box shadows](https://www.w3schools.com/cssref/css3_pr_box-shadow.php) - This helped me to understand and apply box shadows to this project
 
 ## Author
 
